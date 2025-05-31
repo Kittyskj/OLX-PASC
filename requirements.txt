@@ -1,0 +1,13 @@
+# Web scraping and HTTP requests
+aiohttp
+beautifulsoup4
+
+# CLI interface and progress visualization
+rich
+tqdm
+
+# Optional: For better async performance
+aiofiles
+
+# Optional: For data validation and parsing
+lxml
