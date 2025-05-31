@@ -127,6 +127,21 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 6. Push to the branch: `git push origin feature-name`
 7. Submit a pull request
 
+## ⚠️ Known Issues
+
+### OLX Pagination Limit
+OLX Ukraine limits search results to **25 pages maximum**, which equals approximately **500 ads per category**. This is a platform limitation, not a scraper issue.
+
+**Workarounds:**
+- Use **subcategories** instead of main categories (planned for v1.2)
+- Apply **parameter filters** (price range, location, condition) to narrow down results
+- Scrape multiple subcategories separately to get more comprehensive data
+
+### Current Limitations
+- Maximum ~500 ads per single category scrape
+- No subcategory support yet (coming in v1.2)
+- No advanced filtering options (coming in v1.2)
+
 ## 📋 Requirements
 
 ```
