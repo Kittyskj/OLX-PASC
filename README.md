@@ -28,8 +28,8 @@ pip install aiohttp beautifulsoup4 tqdm rich
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Kittyskj/olx-scraper.git
-cd olx-scraper
+git clone https://github.com/Kittyskj/OLX-PASC.git
+cd OLX-PASC
 ```
 
 2. Install dependencies:
